@@ -19,6 +19,6 @@ FOREIGN_KEY_CHECKS = 1;
 
 -- 插入一条数据
 INSERT INTO `USER`
-VALUES (1, 'd242ae49-4734-411e-8c8d-d2b09e87c3c8', 'EalenXie',
+VALUES (1, 'd242ae49-4734-411e-8c8d-d2b09e87c3c8', 'admin',
         '$2a$04$petEXpgcLKfdLN4TYFxK0u8ryAzmZDHLASWLX/XXm8hgQar1C892W', 'SSSSS', 'ssssssssss', 1, 'g',
         '0:0:0:0:0:0:0:1', '2018-07-11 11:26:27');
