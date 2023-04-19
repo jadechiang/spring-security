@@ -23,8 +23,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
     @GetMapping("/login")
     public ModelAndView login() {
-        ModelAndView modelAndView= new ModelAndView("/login");
-        return modelAndView;
+        return new ModelAndView("/login");
     }
 
     @RequestMapping("/")
